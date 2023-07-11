@@ -1,0 +1,62 @@
+.captcha-container {
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+}
+
+.captcha-checkbox-window {
+  display: inline-block;
+  width: 300px;
+  background-color: #f9f9f9;
+  border-radius: 3px;
+  border: 1px solid #d3d3d3;
+  padding: 10px;
+}
+
+.captcha-checkbox-container {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.captcha-checkbox {
+  position: relative;
+  background-color: #fff;
+  border-radius: 2px;
+  height: 100%;
+  width: 100%;
+  border: 2px solid #c1c1c1;
+  outline: none;
+  transition: border-color 0.3s;
+  cursor: pointer;
+}
+
+.captcha-checkbox:hover {
+  border-color: #b2b2b2;
+}
+
+.captcha-label {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #282727;
+}
+
+.captcha-logo {
+  width: 66px;
+  height: 66px;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.captcha-desc {
+  font-size: 12px;
+  color: #555555;
+  margin: 5px 0;
+}
+
+.captcha-spinner {
+  display: none;
+  width: 25px;
+  height: 25px;
+  margin-top: 10px;
+}

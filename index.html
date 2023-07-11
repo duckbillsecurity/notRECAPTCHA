@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="captcha-container">
+      <div class="captcha-checkbox-window">
+        <div class="captcha-checkbox-container">
+          <button type="button" class="captcha-checkbox"></button>
+        </div>
+        <p class="captcha-label">I'm not a robot</p>
+        <img src="RecaptchaLogo.svg" class="captcha-logo" alt="" />
+        <p class="captcha-desc">Privacy - Terms</p>
+      </div>
+    </div>
+
+    <script>
+      document
+        .querySelector(".captcha-checkbox")
+        .addEventListener("click", function () {
+          window.location.href = "https://example.com"; // Replace with your desired URL
+        });
+    </script>
+  </body>
+</html>
