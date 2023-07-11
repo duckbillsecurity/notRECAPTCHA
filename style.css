@@ -53,10 +53,3 @@
   color: #555555;
   margin: 5px 0;
 }
-
-.captcha-spinner {
-  display: none;
-  width: 25px;
-  height: 25px;
-  margin-top: 10px;
-}
